@@ -6,9 +6,10 @@ import java.sql.SQLException;
 
 public class DBConnection {
 
-    private static final String URL = "jdbc:mysql://localhost:3306/mockmate?useSSL=false&serverTimezone=UTC";
-    private static final String USER = "root";
-    private static final String PASSWORD = "system";
+    private static final String URL = System.getenv("DB_URL"); //Database URL
+    private static final String USER = System.getenv("DB_USER"); //Username
+    private static final String PASSWORD = System.getenv("DB_PASSWORD"); //Password
+
     private static Connection connection = null;
 
     // Private constructor to prevent object creation
@@ -46,3 +47,4 @@ public class DBConnection {
         }
     }
 }
+
