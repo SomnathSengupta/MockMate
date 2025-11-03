@@ -1,6 +1,6 @@
 # 🤖 MockMate — A Comprehensive Mock Interview Management Platform
 
-> **MockMate** is an intelligent web-based platform designed to streamline mock interview management for **students**, **job seekers**, and **industry professionals**.  
+> **MockMate** is a web-based platform designed to streamline mock interview management for **students**, **job seekers**, and **industry professionals**.  
 > It simplifies scheduling, session approval, and performance feedback — complete with **automated PDF report generation**.
 
 ---
